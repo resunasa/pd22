@@ -10,7 +10,8 @@
 	<form action="https://sman22plg.sch.id/siswa_aktif/cek_nisn" method="post">
 	<label for="chk" aria-hidden="true">Login BDR</label>
 	<input type="text" id="nisnpd" name="nisnpd" placeholder="NISN" required="">
-	<button>Sign up</button>
+	<input type="hidden" name="ci_csrf_token" value="">
+	<button type="submit">Sign up</button>
 	</form>
 </body>
 </html>
