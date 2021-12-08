@@ -1,77 +1,17 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<title>Mulai Pendaftaran | SMA Negeri 22 Palembang</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="keywords" content=""/>
-	<meta name="description" content=""/>
-	<link rel="icon" href="https://sman22plg.sch.id/media_library/gambar/logo_sekolah.png"/>
-	<link href="https://sman22plg.sch.id/assets/plugins/bootstrap-4/bootstrap.min.css" rel="stylesheet" type="text/css" />
-	<link href="https://sman22plg.sch.id/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-	<link href="https://sman22plg.sch.id/assets/plugins/toastr/toastr.css" rel="stylesheet" type="text/css" />
-	<link href="https://sman22plg.sch.id/assets/plugins/jquery.smartmenus/jquery.smartmenus.bootstrap-4.css" rel="stylesheet" type="text/css" />
-	<link href="https://sman22plg.sch.id/assets/plugins/jquery.smartmenus/sm-core.css" rel="stylesheet" type="text/css" />
-	<link href="https://sman22plg.sch.id/assets/plugins/jquery.smartmenus/sm-clean.css" rel="stylesheet" type="text/css" />
-	<link href="https://sman22plg.sch.id/assets/css/loading.css" rel="stylesheet" type="text/css" />
-	<link href="https://sman22plg.sch.id/views/themes/sky_light/style.css" rel="stylesheet" type="text/css" />
-	<link href="https://sman22plg.sch.id/assets/plugins/datetimepicker/jquery.datetimepicker.css" rel="stylesheet" type="text/css" />
-	<link href="https://cdn.datatables.net/responsive/2.2.4/css/responsive.dataTables.min.css" rel="stylesheet" type="text/css" />
-	<link href="https://cdn.datatables.net/rowreorder/1.2.7/css/rowReorder.dataTables.min.css" rel="stylesheet" type="text/css" />
-	<script src="https://sman22plg.sch.id/assets/js/frontend.min.js"></script>
-	<script src="https://sman22plg.sch.id/assets/plugins/datetimepicker/jquery.datetimepicker.full.min.js"></script>
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2551184398582458"
-     crossorigin="anonymous"></script>
-<div class="col-md-9 col-sm-9">	
-<link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&amp;display=swap" rel="stylesheet">
-	<div class="d-flex justify-content-center text-uppercase text-center" style="font-family: 'ZCOOL XiaoWei', serif;font-size:25px;font-weight: bolder;">PENDAFTARAN ULANG PESERTA DIDIK</div>
-	<div class="card rounded-55 border border-secondary mb-3">	
-		<form class="form-horizontal" action="https://sman22plg.sch.id/siswa_aktif/cek_nisn" method="POST" enctype="multipart/form-data">
-			<div class="card-body">
-				<div class="form-group row mb-2">
-					<label for="nisnpd" class="col-sm-3 control-label">NISN <span style="color: red">*</span></label>
-					<div class="col-sm-9">
-						<input type="text" class="form-control form-control-sm rounded-0 border border-secondary" id="nisnpd" name="nisnpd" placeholder="Masukan Nomor Induk Siswa Nasional (NISN)">
-                         
-					</div>
-				</div>
-			</div>
-			<div class="card-footer">
-				<div class="form-group row mb-0">
-					<div class="offset-sm-3 col-sm-9">
-						<input type="hidden" name="ci_csrf_token" value="">
-						<button type="submit" class="btn btn-sm action-button rounded-0"><i class="fa fa-forward"></i> Selanjutnya</button>
-					</div>
-				</div>
-			</div>
-		</form>
-	</div>
-</div>
-
-	<a href="javascript:" id="return-to-top" class="rounded-lg"><i class="fa fa-angle-double-up"></i></a>
-	<link href="https://sman22plg.sch.id/assets/vendor/datatable/css/buttons.dataTables.min.css" rel="stylesheet" type="text/css" />
-	<link href="https://sman22plg.sch.id/assets/vendor/datatable/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
-	
-	<link href="https://sman22plg.sch.id/assets/vendor/datatable/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
-	
-
-	<script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
-	<script src="https://sman22plg.sch.id/assets/vendor/datatable/js/dataTables.bootstrap4.min.js"></script>
-	<script src="https://sman22plg.sch.id/assets/vendor/datatable/js/dataTables.buttons.min.js"></script>
-	<script src="https://sman22plg.sch.id/assets/vendor/datatable/js/buttons.flash.min.js"></script>
-	<script src="https://sman22plg.sch.id/assets/vendor/datatable/js/pdfmake.min.js"></script>
-	<script src="https://sman22plg.sch.id/assets/vendor/datatable/js/vfs_fonts.js"></script>
-	<script src="https://sman22plg.sch.id/assets/vendor/datatable/js/buttons.html5.min.js"></script>
-	<script src="https://sman22plg.sch.id/assets/vendor/datatable/js/buttons.print.min.js"></script>
-	<script src="https://sman22plg.sch.id/assets/vendor/datatable/js/jszip.min.js"></script>
-	<script src="https://cdn.datatables.net/responsive/2.2.4/js/dataTables.responsive.min.js"></script>
-	<script src="https://cdn.datatables.net/responsive/2.2.3/js/responsive.bootstrap.min.js"></script>
-    <script src="https://cdn.datatables.net/rowreorder/1.2.7/js/dataTables.rowReorder.min.js"></script>
-    <script src="https://sman22plg.sch.id/assets/js/countdown.timer.js"></script>
-	<script type="text/javascript">
-	</body>
+	<title>Login BDR</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+	<form action="https://sman22plg.sch.id/siswa_aktif/cek_nisn" method="post">
+	<label for="chk" aria-hidden="true">Login BDR</label>
+	<input type="text" id="nisnpd" name="nisnpd" placeholder="NISN" required="">
+	<button>Sign up</button>
+	</form>
+</body>
 </html>
-		
-		
+	
